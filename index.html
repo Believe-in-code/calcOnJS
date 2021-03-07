@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style/normalize.css">
+	<link rel="stylesheet" href="style/style.css">
+	<title>Calculator on JS</title>
+</head>
+<body>
+	<div class="container">
+		<div class="input">
+			<input id="input" type="text">
+		</div>
+		<div class="buttons_wrapper">
+			<div onclick="insert('(')" class="item">(</div>
+			<div onclick="insert(')')" class="item">)</div>
+			<div onclick="insert('')" class="item">CE</div>
+			<div onclick="insert('back')" class="item back">&larr;</div>
+			<div onclick="insert('7')" class="item">7</div>
+			<div onclick="insert('8')" class="item">8</div>
+			<div onclick="insert('9')" class="item">9</div>
+			<div onclick="insert('/')" class="item divide">&divide;</div>
+			<div onclick="insert('4')" class="item">4</div>
+			<div onclick="insert('5')" class="item">5</div>
+			<div onclick="insert('6')" class="item">6</div>
+			<div onclick="insert('*')" class="item times">&times;</div>
+			<div onclick="insert('1')" class="item">1</div>
+			<div onclick="insert('2')" class="item">2</div>
+			<div onclick="insert('3')" class="item">3</div>
+			<div onclick="insert('-')" class="item">-</div>
+			<div onclick="insert('.')" class="item">.
+				<span class="author">&copy; Marat Kundetov</span></div>
+			<div onclick="insert('0')" class="item">0</div>
+			<div onclick="insert('=')" class="item">=</div>
+			<div onclick="insert('+')" class="item">+</div>
+		</div>
+	</div>
+	<script src="index.js"></script>
+</body>
+</html>
