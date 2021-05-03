@@ -26,22 +26,17 @@ body {
 
 .item {
   font-size: 5vh;
-  border: 1px solid #999;
-  background: #eee;
+  border: 1px solid #ddd;
+  background: #555;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #555;
-}
-
-.item:hover {
-  background: #ddd;
-  transition: 0.1s;
+  color: #eee;
 }
 
 .item:active {
-  background: #555;
-  color: #ddd;
+  background: #ddd;
+  color: #eee;
 }
 
 .input {
