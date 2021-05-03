@@ -5,17 +5,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style/normalize.css">
 	<link rel="stylesheet" href="style/style.css">
-	<title>Calculator on JS</title>
+	<title>Calculator on JavaScript</title>
 </head>
 <body>
 	<div class="container">
-		<div class="input">
-			<input placeholder="я калькулятор" id="input" type="text">
+		<div class="window">
+			<input readonly placeholder="я калькулятор" id="input" type="text">
 		</div>
 		<div class="buttons_wrapper">
 			<div onclick="insert('(')" class="item">(</div>
 			<div onclick="insert(')')" class="item">)</div>
-			<div onclick="insert('')" class="item">CE</div>
+			<div onclick="insert('')" class="item clear">CE</div>
 			<div onclick="insert('back')" class="item back">&larr;</div>
 			<div onclick="insert('7')" class="item">7</div>
 			<div onclick="insert('8')" class="item">8</div>
@@ -29,8 +29,7 @@
 			<div onclick="insert('2')" class="item">2</div>
 			<div onclick="insert('3')" class="item">3</div>
 			<div onclick="insert('-')" class="item">-</div>
-			<div onclick="insert('.')" class="item">.
-				<span class="author">&copy; Marat Kundetov</span></div>
+			<div onclick="insert('.')" class="item">.</div>
 			<div onclick="insert('0')" class="item">0</div>
 			<div onclick="insert('=')" class="item">=</div>
 			<div onclick="insert('+')" class="item">+</div>
